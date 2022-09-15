@@ -36,7 +36,6 @@ class MainActivity : AppCompatActivity() {
                 id: Long
             ) {
                 savedTextSize = parent?.getItemAtPosition(position).toString().toInt()
-
             }
 
             override fun onNothingSelected(parent: AdapterView<*>?) {}
